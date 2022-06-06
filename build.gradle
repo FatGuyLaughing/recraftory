@@ -38,6 +38,7 @@ minecraft {
     //
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
+    // mappings channel: 'official', version: '1.18.2'
     mappings channel: 'official', version: '1.18.2'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
@@ -147,14 +148,13 @@ repositories {
     // }
 
     // JEI
-    maven {
-        url "https://dvs1.progwml6.com/files/maven"
-    }
+    maven { url = "https://dvs1.progwml6.com/files/maven" }
+    
+    // ParchmentMC
+    maven { url = "https://maven.parchmentmc.org" }
 
     // Top
-    maven {
-        url "https://cursemaven.com"
-    }
+    maven { url = "https://cursemaven.com" }
 }
 
 dependencies {
