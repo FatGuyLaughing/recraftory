@@ -1,6 +1,9 @@
 package com.recraftory.recraftory;
 
 import com.mojang.logging.LogUtils;
+import com.recraftory.recraftory.setup.ClientSetup;
+import com.recraftory.recraftory.setup.ModSetup;
+import com.recraftory.recraftory.setup.Registration;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
